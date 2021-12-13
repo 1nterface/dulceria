@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "928761491205",
+    "project_id": "dulceria-fb622",
+    "storage_bucket": "dulceria-fb622.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928761491205:android:7143a630693e04e513116c",
+        "android_client_info": {
+          "package_name": "app.dulceria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928761491205-j4iopg8seb4d157frpvcb7aefo130e9c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEWjcxMypSI-HvN2NxsSD0N7wsV7xJQek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928761491205-j4iopg8seb4d157frpvcb7aefo130e9c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
