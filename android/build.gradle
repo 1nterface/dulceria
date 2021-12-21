@@ -33,9 +33,7 @@ subprojects {
 
 task clean(type: Delete) {
 
-    subprojects {
-        delete rootProject.buildDir
-    }
+
     project.configurations.all {
         resolutionStrategy.eachDependency { details ->
             if (details.requested.group == 'com.androi' +
