@@ -96,6 +96,30 @@
       // Service workers not supported. Just drop the <script> tag.
       loadMainDartJs();
     }
+
   </script>
+  <script src = "https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src = "https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src = "https://www.gstatic.com/firebasejs/8.10.0/firebase-analytics.js"></script>
+  <script src=  "https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-storage.js"></script>
+
+  <script>
+    var firebaseConfig = {
+    apiKey: "AIzaSyD7rCi6ycnQ7V1PFe9Z_hKzBXcuvffRuOE",
+    authDomain: "dulceria-fb622.firebaseapp.com",
+    projectId: "dulceria-fb622",
+    storageBucket: "dulceria-fb622.appspot.com",
+    messagingSenderId: "928761491205",
+    appId: "1:928761491205:web:931a6860a8c78ffe13116c",
+    measurementId: "G-KVY6K26ZF7"
+  };
+
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+</script>
+
 </body>
 </html>
